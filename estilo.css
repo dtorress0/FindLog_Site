@@ -1,0 +1,168 @@
+/*Estilização geral do site*/
+body{
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+/*Estilização do HEADER da página*/
+header{
+    background-color:  rgb(50, 111, 218);
+}
+/*Estilização Logo*/
+.logo{
+    width: 27%;
+}
+
+/*Estilização do MENU*/
+nav{
+    padding-left: 120px;
+    right: 40%;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+/*Mudando espaçamento do menu*/
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+/*Modificando a fonte do menu*/
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*Quando passar o mouse em cima do link*/
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/*Modificando a caixa do cabeçalho*/
+.logo_caixa{
+    width: 100%;
+    position: relative;
+    margin-right: 950px;
+}
+/*Estilização do Banner*/
+.banner{
+    width: 100%;
+    height: 100%;
+}
+/*Estilização da sessão sobre a FindLog*/
+.findlog{
+    width: 260px;
+    float: left;
+   margin: 0, 20; 
+}
+.titulo_find{
+    clear: left;
+    text-align: center;
+}
+.area_find{
+    width: 85%;
+    text-align: justify;
+    margin: auto;
+    background-color: #FFFFFE;
+}
+
+
+/*Titulos - Padrao*/
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Estilizacao da sessão Nosso estabelecimento (mapa)*/
+.mapa{
+    background: linear-gradient(#FFFFFE, blue) ;
+}
+
+.mapa p{
+    text-align: center;
+}
+.mapa iframe{
+    margin: auto;
+    display: block;
+}
+/**/
+.titulo-padrao{
+    padding:3%;
+    margin: 0;
+    text-align: center;
+}
+
+/*Estilização da sessão Benefícios*/
+.beneficios {
+    background-color: blue;
+    
+}
+
+.conteudo_beneficios{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.lista_beneficios{
+    width: 25%;
+    display: inline-block;  
+    vertical-align: top;
+    padding-left: 35%;
+    margin-top: 30px;
+    list-style: "🖖";
+}
+.itens{
+    /*Espacamento entre linhas*/
+    line-height: 1.5;
+}
+.itens:before{
+    /*colocar emojis nos tópicos*/
+    content: "👅";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.img_beneficios{
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px;
+    opacity: 1;
+    transition: 400ms;
+    margin-top: 20px;
+    
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+
+.video{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Estilizacao do footer*/
+
+footer{
+    text-align: center;
+    /*background: url("assets/imagens/findlogoriginal.png");*/
+    padding: 40px;
+    background-color: rgb(50, 111, 218);
+}
+.copyright{
+    color:white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
