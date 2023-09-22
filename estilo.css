@@ -161,8 +161,55 @@ footer{
 
 
 
+/*Pagina dos Produtos*/
+.produtos{
+    background-color: deepskyblue;
+}
+.conteudo_produtos{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.titulo_produtos{
+    text-align: center;
+    color: #FFFFFE; 
+}
 
+.paragrafo{
+    padding: 80px;
+    text-align: center;
+}
+/*Imagens planos*/
+.img_basic{
+    width: 14%;
+    padding-left: 17%;
+    margin-top: 20px;
+    border: solid 2px black;
+    
+}
+/*box-shadow: 10px 10px 5px 0px;
+    opacity: 1;
+    transition: 400ms;*/
 
+.img_starter{
+    width: 14%;
+    padding-left: 12%;
+    box-shadow: 10px 10px 5px 0px;
+    opacity: 1;
+    transition: 400ms;
+    margin-top: 20px;
+    border: solid 2px black;
+    margin
+}
 
+.img_pro{
+    width: 14%;
+    padding-left: 12%;
+    box-shadow: 10px 10px 5px 0px;
+    opacity: 1;
+    transition: 400ms;
+    margin-top: 20px;
+    border: solid 2px black;
+}
 
 
