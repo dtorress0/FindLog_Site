@@ -51,6 +51,8 @@ nav a:hover{
     width: 100%;
     height: 100%;
 }
+
+
 /*Estilização da sessão sobre a FindLog*/
 .findlog{
     width: 260px;
@@ -162,7 +164,14 @@ footer{
 
 
 /*Pagina dos Produtos*/
+.principal{
+    margin-top: 0%;
+    padding-top: 0%;
+    background-color: deepskyblue;
+}
 .produtos{
+    margin-top: 0%;
+    padding-top: 0%;
     background-color: deepskyblue;
 }
 .conteudo_produtos{
@@ -173,6 +182,8 @@ footer{
 .titulo_produtos{
     text-align: center;
     color: #FFFFFE; 
+    margin: 0;
+    padding-top: 3%;
 }
 
 .paragrafo{
@@ -180,13 +191,22 @@ footer{
     text-align: center;
 }
 /*Imagens planos*/
+
 .img_basic{
     width: 14%;
     padding-left: 17%;
+    /*box-shadow: 10px 10px 5px 0px;*/
     margin-top: 20px;
-    border: solid 2px black;
-    
+    /*border: solid 2px black;*/
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
 }
+
+
+.img_basic:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 /*box-shadow: 10px 10px 5px 0px;
     opacity: 1;
     transition: 400ms;*/
@@ -194,22 +214,63 @@ footer{
 .img_starter{
     width: 14%;
     padding-left: 12%;
-    box-shadow: 10px 10px 5px 0px;
+    /*box-shadow: 10px 10px 5px 0px;*/
     opacity: 1;
     transition: 400ms;
     margin-top: 20px;
-    border: solid 2px black;
-    margin
+    /*border: solid 2px black;*/
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    
 }
+
+.img_starter:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 
 .img_pro{
     width: 14%;
     padding-left: 12%;
-    box-shadow: 10px 10px 5px 0px;
+    /*box-shadow: 10px 10px 5px 0px;*/
     opacity: 1;
     transition: 400ms;
     margin-top: 20px;
-    border: solid 2px black;
+    /*border: solid 2px black;*/
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
 }
 
+.img_pro:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 
+
+ .logis{
+    background-color: aliceblue;
+ }
+
+.logistica{
+    width: 25%;
+    height: 25%;
+    padding-left: 37%;   
+    margin: 0, 20;
+}
+
+.divisao{
+    background-color: deepskyblue;
+}
+
+.titulo_tec{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.box{
+    text-align: center;
+}
+
+.centro{
+    text-align: center;
+}
