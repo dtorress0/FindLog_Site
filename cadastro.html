@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link href="./estilo.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindLog</title>
+
+</head>
+
+<body>
+
+    <body class="body">
+        <header>
+            <!--Divisão entre as caixas-->
+            <div class="logo_caixa">
+                <img src="assets/imagens/findlogoriginal.png" title="FindLog" class="logo" />
+                <nav>
+                    <ul>
+                        <!-- Aqui fizemos o menu e quando clicar abre uma página do google -->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="cadastro.html" >Contato</a></li>
+
+                </nav>
+            </div>
+            </div>
+        </header>
+        <div class="caixa">
+            <h2>Cadastro de Usuário</h2>
+            <form action="respostaForm" method="post">
+                <label for="nome_completo">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="celular">Celular:</label>
+                <input type="text" id="celular" name="celular" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@dominio.com">
+
+                <label for="mensagem">Mensagem</label>  
+                <textarea cols="70" rows="10"id="mensagem" class ="mensagem"name="mensagem" ></textarea>
+
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="contato">Como prefere o nosso contato?
+                    <input type="radio" value="radio-mail" name="Contato"> E-mail    
+                    <input type="radio" value="radio-telefone" name="Contato"> Telefone 
+                    <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp  
+                </label>
+
+                <label><input type="checkbox" class="chk">Deseja receber novidades por email?</label>
+
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+        <footer>
+            <img src="assets/imagens/findlogoriginal.png" alt="FindLog" class="logo_fotter">
+            <p class="copyright">&copy; Copyright - Todos os direitos reservados para a FindLog</p>
+        </footer>
+
+    </body>
+
+</html>
+</body>
+
+</html>
